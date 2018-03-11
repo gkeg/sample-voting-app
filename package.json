@@ -1,0 +1,25 @@
+{
+  "name": "VotingApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4",
+    "standard": "^11.0.0"
+  }
+}
